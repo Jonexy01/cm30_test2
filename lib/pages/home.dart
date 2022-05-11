@@ -40,6 +40,7 @@ class MyHomePage extends StatelessWidget {
             //   borderRadius: BorderRadius.circular(8),
             // ),
             child: TextFormField(
+              obscureText: true,
               decoration: InputDecoration(
                 // filled: true,
                 // fillColor: Color(0xffFFFFFF),
@@ -66,6 +67,7 @@ class MyHomePage extends StatelessWidget {
             //   borderRadius: BorderRadius.circular(8),
             // ),
             child: TextFormField(
+              obscureText: true,
               decoration: InputDecoration(
                 // filled: true,
                 // fillColor: Color(0xffFFFFFF),
@@ -84,6 +86,30 @@ class MyHomePage extends StatelessWidget {
               ),
             )
           ),
+          Container(
+            margin: EdgeInsets.fromLTRB(size.width * 0.08, 522, 0, 0),
+            height: 55,
+            width: size.width * 0.84,
+            child: ClipRRect(
+              borderRadius: BorderRadius.circular(8),
+              child: TextButton(
+                style: ButtonStyle(
+                  backgroundColor: MaterialStateProperty.all(Color(0xff002DCC))
+                ),
+                onPressed: () {
+                  Navigator.pushReplacementNamed(context, '/login');
+                }, 
+                child: Text(
+                  'Set Password',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w700,
+                    color: Color(0xffFFFFFF)
+                  ),
+                )
+              ),
+            ),
+          )
         ],
       )
     );

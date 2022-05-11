@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'tm30_test',
       // theme: ThemeData(
-      //   primarySwatch: Colors.white,
+      //   primarySwatch: Color(0xffE5E5E5),
       // ),
       routes: {
         '/': (context) => MyHomePage(),
