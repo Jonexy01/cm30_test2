@@ -12,7 +12,7 @@ class LoginPage extends StatelessWidget {
         child: Stack(
           children: [
             Container(
-              margin: EdgeInsets.fromLTRB(66, 193, 0, 0),
+              margin: EdgeInsets.fromLTRB(66, 143, 0, 0),
               child: Text(
                 'Login to your account',
                 style: TextStyle(
@@ -23,7 +23,7 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(66, 226, 0, 0),
+              margin: EdgeInsets.fromLTRB(66, 176, 0, 0),
               child: Text(
                 'Enter your details to login to your account',
                 style: TextStyle(
@@ -34,7 +34,7 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(size.width * 0.08, 287, 0, 0),
+              margin: EdgeInsets.fromLTRB(size.width * 0.08, 237, 0, 0),
               width: size.width * 0.4,
               height: 50,
               child: ClipRRect(
@@ -67,7 +67,7 @@ class LoginPage extends StatelessWidget {
                 ),
                 borderRadius: BorderRadius.circular(8),
               ),
-              margin: EdgeInsets.fromLTRB(size.width * 0.52, 287, 0, 0),
+              margin: EdgeInsets.fromLTRB(size.width * 0.52, 237, 0, 0),
               width: size.width * 0.4,
               height: 50,
               child: ClipRRect(
@@ -96,7 +96,7 @@ class LoginPage extends StatelessWidget {
             Container(
               width: size.width * 0.84,
               height: 50,
-              margin: EdgeInsets.fromLTRB(size.width * 0.08, 363, 0, 0),
+              margin: EdgeInsets.fromLTRB(size.width * 0.08, 313, 0, 0),
               child: TextFormField(
                 decoration: InputDecoration(
                   hintText: 'Email Address',
@@ -113,7 +113,7 @@ class LoginPage extends StatelessWidget {
             Container(
               width: size.width * 0.84,
               height: 50,
-              margin: EdgeInsets.fromLTRB(size.width * 0.08, 439, 0, 0),
+              margin: EdgeInsets.fromLTRB(size.width * 0.08, 389, 0, 0),
               child: TextFormField(
                 obscureText: true,
                 decoration: InputDecoration(
@@ -133,7 +133,7 @@ class LoginPage extends StatelessWidget {
               )
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(size.width * 0.68, 505, 0, 0),
+              margin: EdgeInsets.fromLTRB(size.width * 0.68, 455, 0, 0),
               child: Text(
                 'Forgot Password?',
                 style: TextStyle(
@@ -143,7 +143,7 @@ class LoginPage extends StatelessWidget {
               ),
             ),
             Container(
-              margin: EdgeInsets.fromLTRB(size.width * 0.08, 585, 0, 0),
+              margin: EdgeInsets.fromLTRB(size.width * 0.08, 535, 0, 0),
               height: 55,
               width: size.width * 0.84,
               child: ClipRRect(
